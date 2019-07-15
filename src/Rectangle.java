@@ -7,4 +7,9 @@ public class Rectangle {
         a = num1;
         b = num2;
     }
+
+    double calcPerimeter(){
+        double perimeter = (2 * a) + (2 * b);
+        return perimeter;
+    }
 }

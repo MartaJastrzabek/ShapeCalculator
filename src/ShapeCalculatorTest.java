@@ -7,18 +7,17 @@ public class ShapeCalculatorTest {
         Circle circle = new Circle(5);
         Triangle triangle = new Triangle(2, 4, 6);
 
-        ShapeCalculator calc = new ShapeCalculator();
 
-        double sqArea = calc.squareArea(square);
+        double sqArea = square.CalculateArea();
         System.out.println("Square area : "  + sqArea);
 
-        double circleArea  = calc.circleArea(circle);
+        double circleArea  = circle.CalcArea();
         System.out.println("Circle area: " + circleArea);
 
-        double trianglePerimeter = calc.trianglePerimeter(triangle);
+        double trianglePerimeter = triangle.calcPerimeter();
         System.out.println("Triangle perimeter: " + trianglePerimeter);
 
-        double rectranglePerimeter = calc.rectPerimeter(rectangle);
+        double rectranglePerimeter = rectangle.calcPerimeter();
         System.out.println("Rectangle perimeter: " + rectranglePerimeter);
 
 

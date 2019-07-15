@@ -4,4 +4,9 @@ public class Square {
     Square(int num){
         a = num;
     }
+
+    double CalculateArea(){
+        double area = a * a;
+        return area;
+    }
 }

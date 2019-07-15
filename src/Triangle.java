@@ -15,4 +15,9 @@ public class Triangle {
         a = num;
         h = height;
     }
+
+    double calcPerimeter(){
+        double perimeter = a + b + c;
+        return perimeter;
+    }
 }
