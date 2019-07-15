@@ -5,7 +5,7 @@ public class Square {
         a = num;
     }
 
-    double CalculateArea(){
+    double calculateArea(){
         double area = a * a;
         return area;
     }

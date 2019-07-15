@@ -8,10 +8,10 @@ public class ShapeCalculatorTest {
         Triangle triangle = new Triangle(2, 4, 6);
 
 
-        double sqArea = square.CalculateArea();
+        double sqArea = square.calculateArea();
         System.out.println("Square area : "  + sqArea);
 
-        double circleArea  = circle.CalcArea();
+        double circleArea  = circle.calcArea();
         System.out.println("Circle area: " + circleArea);
 
         double trianglePerimeter = triangle.calcPerimeter();
